@@ -78,3 +78,6 @@
   width: 20 px;
   height: 21 px;
 }
+.CheckoutLink {
+  text-decoration: none;
+}
