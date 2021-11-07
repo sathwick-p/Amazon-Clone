@@ -1,0 +1,80 @@
+.login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  align-items: center;
+}
+.login__logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.tagLine > h5 {
+  line-height: 1;
+  font-size: 12px;
+  color: #767676;
+  font-weight: 600;
+  z-index: 2;
+  /* position: relative; */
+  /* display: inline-block; */
+  background-color: #fff;
+  margin-top: 13px;
+  padding: 0 8px 0 7px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+.login__signInButton {
+  background-color: #ff9900;
+  border: 1px solid;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 2px;
+  height: 30px;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+.login__signInButton:hover {
+  cursor: pointer;
+}
+.login__container > form > input {
+  border: 2px solid black;
+  border-radius: 2px;
+  outline: none;
+}
+.login__container {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+.login__container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.login__container > form > h5 {
+  margin-bottom: 5px;
+}
+.login__container > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+}
+.login__container > p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.login__registerButton {
+  width: 290px;
+  cursor: pointer;
+  height: 30px;
+  margin-top: 5px;
+}

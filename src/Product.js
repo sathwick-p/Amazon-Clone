@@ -1,9 +1,9 @@
 import React from "react";
 import "./Product.css";
 import { useStateValue } from "./StateProvider";
-function Product({ title, image, price }) {
+function Product({ title, image, price, id }) {
   const [{ basket }, dispatch] = useStateValue();
-  console.log("This is the basket >>", basket);
+  // console.log("This is the basket >>", basket);
 
   const addToBasket = () => {
     // dispatch the item into datalayer
@@ -13,6 +13,7 @@ function Product({ title, image, price }) {
         title: title,
         image: image,
         price: price,
+        id: id,
       },
     });
   };
